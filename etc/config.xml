@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <force_shipping_method>
+            <general>
+                <enabled>0</enabled>
+                <min_order_amount>150</min_order_amount>
+                <payment_method_code>paypal_express</payment_method_code>
+                <shipping_method_code>flatrate2_flatrate2</shipping_method_code>
+                <checkout_payment_message>For orders with a minimum total of € 150 and payment via Paypal Express, insured shipping is mandatory. Insured shipping has been therefore selected.</checkout_payment_message>
+            </general>
+        </force_shipping_method>
+    </default>
+</config>
